@@ -40,6 +40,23 @@ const RuleButtons = ({ index, rulesCount, rule, moveRule, deleteRule }) => (
   </div>
 );
 
+const MapStrip = ({ maps, className }) => (
+  <div className={`relative overflow-hidden ${className}`}>
+    {maps.slice(0, 5).map((mapName, i, arr) => (
+      <img
+        key={mapName}
+        src={`/images/maps/${mapName}.webp`}
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{
+          clipPath: `inset(0 0 0 ${i * (100 / arr.length)}%)`,
+          zIndex: i,
+        }}
+        draggable="false"
+      />
+    ))}
+  </div>
+);
+
 const RuleCard = ({
   rule,
   selectedRule,
@@ -60,15 +77,10 @@ const RuleCard = ({
   const toggleSelectedRule = () =>
     setSelectedRule((prev) => (prev === rule.id ? null : rule.id));
 
-  const imgSrc = hasMultipleMaps
-    ? "/images/maps/Rule_Thumbnail.webp"
-    : `/images/maps/${rule.mapString}.webp`;
-
+  const imgSrc = `/images/maps/${rule.mapString}.webp`;
   const mapCount = hasMultipleMaps ? `${rule.maps.length} Maps` : "1 Map";
-
   const swapLabel = `${activeSwapCount} ${activeSwapCount === 1 ? "swap" : "swaps"}`;
   const swapClass = activeSwapCount > 0 ? "text-emerald-600" : "text-zinc-400";
-
   const buttonProps = { index, rulesCount, rule, moveRule, deleteRule };
 
   if (ruleView === "grid") {
@@ -77,11 +89,18 @@ const RuleCard = ({
         className={`border rounded-lg w-full flex flex-col select-none cursor-pointer bg-zinc-900 hover:scale-101 transition-all linear ${isSelected ? "border-white" : "border-zinc-600"}`}
         onClick={toggleSelectedRule}
       >
-        <img
-          src={imgSrc}
-          className="rounded-t-lg border-b border-zinc-600 h-32 w-full object-cover"
-          draggable="false"
-        />
+        {hasMultipleMaps ? (
+          <MapStrip
+            maps={rule.maps}
+            className="rounded-t-lg border-b border-zinc-600 h-32 w-full"
+          />
+        ) : (
+          <img
+            src={imgSrc}
+            className="rounded-t-lg border-b border-zinc-600 h-32 w-full object-cover"
+            draggable="false"
+          />
+        )}
         <div className="flex justify-between p-2 font-geistMono">
           <div className="flex flex-col overflow-hidden">
             <p>{label}</p>
@@ -102,11 +121,18 @@ const RuleCard = ({
       className={`border rounded-lg w-full flex items-center gap-3 pr-2 select-none cursor-pointer bg-zinc-900 hover:scale-101 transition-all linear h-12 ${isSelected ? "border-white" : "border-zinc-600"}`}
       onClick={toggleSelectedRule}
     >
-      <img
-        src={imgSrc}
-        className="w-24 shrink-0 object-cover self-stretch rounded-l-lg border-r border-zinc-600"
-        draggable="false"
-      />
+      {hasMultipleMaps ? (
+        <MapStrip
+          maps={rule.maps}
+          className="w-24 shrink-0 self-stretch rounded-l-lg border-r border-zinc-600"
+        />
+      ) : (
+        <img
+          src={imgSrc}
+          className="w-24 shrink-0 object-cover self-stretch rounded-l-lg border-r border-zinc-600"
+          draggable="false"
+        />
+      )}
       <div className="flex flex-col gap-1 font-geistMono overflow-hidden">
         <p className="text-sm">{label}</p>
         <div className="flex gap-1 text-xs text-zinc-400">
