@@ -1,6 +1,6 @@
 # STRAFTOOLS
 
-A web-based toolset for [STRAFTAT](https://store.steampowered.com/app/2692280/Straftat/)
+A web-based toolset for [STRAFTAT](https://store.steampowered.com/app/2386720/STRAFTAT/)
 
 ## Tools
 
