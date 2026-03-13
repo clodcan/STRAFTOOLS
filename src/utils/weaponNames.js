@@ -1,0 +1,33 @@
+export const weaponIdToName = {
+  Nugget: "Serac",
+  Gun: "Pistol",
+  "AK-K": "AK",
+  SawedOff: "Sawed Off",
+  HandGrenade: "Hand Grenade",
+  ProximityMine: "Proximity Mine",
+  APMine: "AP Mine",
+  JahvalMahmaerd: "Jahval Mahmaerd",
+  SmithCarbine: "Smith Carbine",
+  RocketLauncher: "Rocket Launcher",
+  GlandGrenade: "Gland Grenade",
+  DualLauncher: "Dual Launcher",
+  BigFattyBro: "Oklahoma",
+  AR15: "AR",
+  BeamLoad: "Beam Load",
+  GlaiveGun: "Glaive Gun",
+  HandCanon: "Hand Cannon",
+  BlankState: "Blank State",
+  BaseballBat: "Baseball Bat",
+  StunGrenade: "Stun Grenade",
+  CurvedKnife: "Curved Knife",
+  FlashLight: "Flash Light",
+  GammaGen2: "Gamma Gen 2",
+  DF_Torrent: "Torrent",
+  DF_Cyst: "Cyst",
+  DF_Blister: "Blister",
+  DF_GodSword: "God Sword",
+};
+
+export const weaponNameToId = Object.fromEntries(
+  Object.entries(weaponIdToName).map(([id, name]) => [name, id]),
+);

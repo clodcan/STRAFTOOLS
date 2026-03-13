@@ -1,0 +1,4503 @@
+{
+  "Adobe_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Adobe",
+    "weapons": {
+      "spawners": ["AK", "AP Mine", "Glock", "Havoc"]
+    }
+  },
+  "Adobe_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Adobe",
+    "weapons": {
+      "spawners": ["Couperet", "Jahval Mahmaerd", "Stylus", "Taser"]
+    }
+  },
+  "Adobe_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Adobe",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Dispenser",
+        "FG42",
+        "Hand Grenade",
+        "SMG",
+        "Stylus"
+      ]
+    }
+  },
+  "Adobe_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Adobe",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Claymore",
+        "Glock",
+        "Proximity Mine",
+        "Smith Carbine"
+      ]
+    }
+  },
+  "Adobe_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Adobe",
+    "weapons": {
+      "spawners": ["M2000"]
+    }
+  },
+  "Adobe_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Adobe",
+    "weapons": {
+      "spawners": ["Rocket Launcher"]
+    }
+  },
+  "Adread_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Katana"],
+      "vending_machine": ["Gland Grenade", "Hand Grenade"]
+    }
+  },
+  "Appartment_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Keso"]
+    }
+  },
+  "Aquatic_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Aquatic",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Claymore",
+        "Dual Launcher",
+        "FG42",
+        "Flamberge",
+        "Oklahoma",
+        "Propeller",
+        "Repulsar",
+        "Taser",
+        "Webley"
+      ]
+    }
+  },
+  "Aquatic_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Aquatic",
+    "weapons": {
+      "spawners": ["Glock", "Shotgun"]
+    }
+  },
+  "Arena_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AK", "Pistol", "SMG"]
+    }
+  },
+  "Arena_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Claymore", "Couperet", "Sawed Off", "Silenzzio"]
+    }
+  },
+  "Arena_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AR", "Pistol", "SMG"]
+    }
+  },
+  "Arena_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Couperet", "Silenzzio", "Tromblonj"]
+    }
+  },
+  "Arena_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AK", "Pistol", "SMG"]
+    }
+  },
+  "Arena_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Gland Grenade", "Sawed Off", "Silenzzio", "Tromblonj"]
+    }
+  },
+  "Arena_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Hand Grenade", "Pistol", "SMG", "Shotgun"]
+    }
+  },
+  "Arena_03_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AAA12", "Bender", "Crisis", "Silenzzio", "Warden"]
+    }
+  },
+  "Arena_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Rocket Launcher"]
+    }
+  },
+  "Arena_04_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Sawed Off", "Smith Carbine"]
+    }
+  },
+  "Arena_05": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AK", "Pistol", "Revolver", "SMG"]
+    }
+  },
+  "Arena_05_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AAA12", "Bender", "Claymore", "Warden"]
+    }
+  },
+  "Arena_06": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Dispenser", "Pistol", "Revolver", "SMG", "Shotgun"]
+    }
+  },
+  "Arena_06_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Crisis",
+        "Gland Grenade",
+        "Sawed Off",
+        "Tromblonj",
+        "Warden"
+      ]
+    }
+  },
+  "Arena_07": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AK", "Elephant", "Pistol"]
+    }
+  },
+  "Arena_07_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Bender",
+        "Jahval Mahmaerd",
+        "Nizeh",
+        "Smith Carbine"
+      ]
+    }
+  },
+  "Arena_08": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AK", "Elephant", "Pistol"]
+    }
+  },
+  "Arena_09": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Hand Grenade", "SMG", "Shotgun"]
+    }
+  },
+  "Arena_09_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Claymore", "Sawed Off", "Silenzzio"]
+    }
+  },
+  "Arena_10": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Dispenser", "Glock", "Havoc", "Pistol", "Shotgun"]
+    }
+  },
+  "Arena_10_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Sawed Off", "Smith Carbine"]
+    }
+  },
+  "Arena_11": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Dispenser", "Flamberge", "Hand Grenade", "SMG", "Shotgun"]
+    }
+  },
+  "Arena_11_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Beam Load", "Mac10", "Phoenix", "Shotgun", "Taser"]
+    }
+  },
+  "Arena_12": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Dispenser", "Glaive Gun", "Havoc", "Pistol"]
+    }
+  },
+  "Arena_12_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Gamma", "Phoenix", "Propeller", "Smith Carbine"]
+    }
+  },
+  "Arena_13": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["AK", "Dispenser", "Havoc", "Pistol", "Shotgun"]
+    }
+  },
+  "Arena_13_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Crisis",
+        "Rocket Launcher",
+        "Smith Carbine",
+        "Stylus",
+        "Taser"
+      ]
+    }
+  },
+  "Arena_14": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "Bender",
+        "Claymore",
+        "Crisis",
+        "Glaive Gun",
+        "Jahval Mahmaerd",
+        "Kanye",
+        "Stylus",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Arena_14_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Bender",
+        "Claymore",
+        "Crisis",
+        "Jahval Mahmaerd",
+        "Oklahoma",
+        "Sawed Off"
+      ]
+    }
+  },
+  "Arena_16": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Dual Launcher",
+        "Hand Cannon",
+        "Minigun",
+        "Proximity Mine",
+        "SMG",
+        "Sawed Off",
+        "Silenzzio",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Arena_16_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "Blank State",
+        "Couperet",
+        "Proximity Mine",
+        "Silenzzio",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Arena_20": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "Glaive Gun",
+        "Glock",
+        "M2000",
+        "Proximity Mine"
+      ]
+    }
+  },
+  "Arena_21": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Gland Grenade",
+        "Glock",
+        "Hand Grenade",
+        "Mortini",
+        "Phoenix",
+        "Pistol",
+        "Sawed Off",
+        "Taser"
+      ]
+    }
+  },
+  "Arena_22": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Glaive Gun", "Glock", "Hand Grenade"]
+    }
+  },
+  "Arena_23": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Glaive Gun", "Hand Grenade", "Proximity Mine"]
+    }
+  },
+  "Arena_24": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Claymore", "Sawed Off", "Silenzzio"]
+    }
+  },
+  "Arena_25": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Dual Launcher", "Rocket Launcher"]
+    }
+  },
+  "Arena_25_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Smith Carbine"]
+    }
+  },
+  "Arena_26": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Elephant", "Glock", "Hand Grenade", "Repulsar"]
+    }
+  },
+  "Arena_27": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Hand Grenade", "Proximity Mine", "Shotgun"]
+    }
+  },
+  "Arena_27_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": ["Claymore", "Crisis", "Stylus"]
+    }
+  },
+  "Arena_28": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Crisis",
+        "Elephant",
+        "Flamberge",
+        "Havoc",
+        "Revolver"
+      ]
+    }
+  },
+  "Arena_29": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "Glock",
+        "Hand Grenade",
+        "Havoc",
+        "Pistol",
+        "Proximity Mine",
+        "SMG"
+      ]
+    }
+  },
+  "Arena_30": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "Flamberge",
+        "Glock",
+        "Pistol",
+        "Proximity Mine",
+        "SMG"
+      ]
+    }
+  },
+  "Arena_Shadow_00": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["Couperet", "Proximity Mine", "Repulsar", "Taser"]
+    }
+  },
+  "Arena_Shadow_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["Proximity Mine", "Repulsar", "Taser"]
+    }
+  },
+  "Arena_Shadow_02": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["AP Mine", "Baseball Bat", "Gland Grenade"]
+    }
+  },
+  "Arena_Shadow_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": [
+        "Hand Grenade",
+        "Minigun",
+        "Proximity Mine",
+        "Repulsar",
+        "Taser"
+      ]
+    }
+  },
+  "Arena_Shadow_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": [
+        "Hand Grenade",
+        "Havoc",
+        "Minigun",
+        "Prophet",
+        "Proximity Mine"
+      ]
+    }
+  },
+  "Arena_Shadow_04_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["Gland Grenade", "Shotgun"]
+    }
+  },
+  "Arena_Shadow_05": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["AP Mine", "Stylus"]
+    }
+  },
+  "Arena_Shadow_05_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["Claymore", "Proximity Mine", "Repulsar"]
+    }
+  },
+  "Arena_Shadow_06": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["Blank State"]
+    }
+  },
+  "Arena_Shadow_07": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Couperet",
+        "Phoenix",
+        "Repulsar",
+        "Sawed Off",
+        "Silenzzio",
+        "Taser"
+      ]
+    }
+  },
+  "Arena_Shadow_08": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Arena Shadow",
+    "weapons": {
+      "spawners": ["Hill_H15", "M2000", "Silenzzio"]
+    }
+  },
+  "Autobahn_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Baseball Bat", "Stylus"]
+    }
+  },
+  "Backrooms_00": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Backrooms",
+    "weapons": {
+      "spawners": ["AK", "Flamberge", "Glock", "Proximity Mine"]
+    }
+  },
+  "Backrooms_01": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Backrooms",
+    "weapons": {
+      "spawners": ["Elephant"]
+    }
+  },
+  "Backrooms_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Backrooms",
+    "weapons": {
+      "spawners": ["Glaive Gun", "Gland Grenade"]
+    }
+  },
+  "Barren_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Barren",
+    "weapons": {
+      "spawners": ["Pistol", "Stun Grenade", "Stylus"]
+    }
+  },
+  "Barren_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Barren",
+    "weapons": {
+      "spawners": ["Hand Grenade", "Keso"]
+    }
+  },
+  "Barren_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Barren",
+    "weapons": {
+      "spawners": ["Dispenser", "Glock", "Mac10", "Pistol"]
+    }
+  },
+  "Barren_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Barren",
+    "weapons": {
+      "spawners": ["Flamberge", "Gamma Gen 2", "Hand Grenade", "Stun Grenade"]
+    }
+  },
+  "Barren_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Barren",
+    "weapons": {
+      "spawners": ["Dispenser", "Dual Launcher", "M2000"]
+    }
+  },
+  "Barren_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Barren",
+    "weapons": {
+      "spawners": ["Katana", "Oklahoma"]
+    }
+  },
+  "Basket_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["Claymore", "Elephant", "Pistol"]
+    }
+  },
+  "Basket_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["Flash Light", "Oklahoma"]
+    }
+  },
+  "Basket_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["Pistol", "Proximity Mine"]
+    }
+  },
+  "Basket_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["AP Mine", "StunMine", "Webley"]
+    }
+  },
+  "Basket_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["AR", "Claymore", "Pistol", "Proximity Mine"]
+    }
+  },
+  "Basket_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["Hand Grenade", "StunMine", "Stylus"]
+    }
+  },
+  "Basket_Borular": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "Claymore",
+        "FG42",
+        "Hand Grenade",
+        "Pistol",
+        "Proximity Mine",
+        "Stun Grenade",
+        "Stylus",
+        "Taser"
+      ]
+    }
+  },
+  "Basket_Borular_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Claymore",
+        "Hand Grenade",
+        "Pistol",
+        "Prophet",
+        "Silenzzio",
+        "Stun Grenade",
+        "StunMine",
+        "Stylus",
+        "Taser"
+      ]
+    }
+  },
+  "Basket_Chahar": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Curved Knife",
+        "Glock",
+        "M2000",
+        "Oklahoma",
+        "Pistol",
+        "Smith Carbine",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Basket_Chahar_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Blister",
+        "Bukanee",
+        "Cyst",
+        "Glock",
+        "Impetus",
+        "Repulsar",
+        "Smith Carbine",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Basket_Crosshair": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Havoc",
+        "Pistol",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun",
+        "Stylus"
+      ]
+    }
+  },
+  "Basket_Crosshair_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["Couperet", "Flamberge", "Proximity Mine", "Stylus", "Taser"]
+    }
+  },
+  "Basket_Dochehar": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Havoc",
+        "Pistol",
+        "Propeller",
+        "Proximity Mine",
+        "SMG",
+        "Stylus"
+      ]
+    }
+  },
+  "Basket_Dochehar_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Dispenser",
+        "Prophet",
+        "Revolver",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Basket_Duvar": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Mac10",
+        "Pistol",
+        "Proximity Mine",
+        "Revolver",
+        "Sawed Off",
+        "Stylus",
+        "Taser"
+      ]
+    }
+  },
+  "Basket_Junglegym": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "Dispenser",
+        "Havoc",
+        "Kanye",
+        "Mac10",
+        "Oklahoma",
+        "Pistol",
+        "Proximity Mine",
+        "Revolver",
+        "Sawed Off",
+        "Silenzzio",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Basket_Junglegym_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Curved Knife",
+        "Impetus",
+        "Proximity Mine",
+        "Stun Grenade",
+        "StunMine"
+      ]
+    }
+  },
+  "Basket_Shesh": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Bukanee",
+        "Curved Knife",
+        "Hand Grenade",
+        "Mac10",
+        "Pistol",
+        "Proximity Mine",
+        "Serac",
+        "Silenzzio",
+        "Stun Grenade",
+        "Stylus"
+      ]
+    }
+  },
+  "Basket_Shesh_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": ["Curved Knife", "Glock", "Revolver"]
+    }
+  },
+  "Basket_Swirly": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Glock",
+        "HK_G11",
+        "Mac10",
+        "Pistol",
+        "Proximity Mine",
+        "SMG",
+        "Silenzzio"
+      ]
+    }
+  },
+  "Basket_Swirly_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Beam Load",
+        "Gamma",
+        "Kanye",
+        "M2000",
+        "Prophet",
+        "Revolver",
+        "Stun Grenade",
+        "Taser"
+      ]
+    }
+  },
+  "Basket_Yek": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Dispenser",
+        "Mac10",
+        "Pistol",
+        "Proximity Mine",
+        "Stun Grenade",
+        "Stylus"
+      ]
+    }
+  },
+  "Basket_Yek_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Basket",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "HK_Caws",
+        "HK_G11",
+        "Hand Grenade",
+        "Jahval Mahmaerd",
+        "M2000",
+        "Mortini",
+        "StunMine"
+      ]
+    }
+  },
+  "Bazaar_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "Baseball Bat",
+        "Claymore",
+        "Couperet",
+        "Glock",
+        "Hand Grenade",
+        "Mac10",
+        "Oklahoma",
+        "Pistol",
+        "Proximity Mine",
+        "SMG",
+        "Sawed Off",
+        "Silenzzio"
+      ],
+      "pipe": [
+        "Hand Grenade",
+        "Minigun",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun",
+        "Taser"
+      ]
+    }
+  },
+  "Bazaar_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Elephant",
+        "Glock",
+        "HK_G11",
+        "Hand Grenade",
+        "Mac10",
+        "Proximity Mine",
+        "Shotgun",
+        "Stylus",
+        "Webley"
+      ]
+    }
+  },
+  "Bazaar_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["Gust", "Mac10", "Phoenix", "Smith Carbine"]
+    }
+  },
+  "Bazaar_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "AP Mine",
+        "FG42",
+        "Glock",
+        "HK_G11",
+        "Havoc",
+        "Jahval Mahmaerd",
+        "Kanye",
+        "Pistol",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun"
+      ]
+    }
+  },
+  "Bazaar_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Dispenser",
+        "Glock",
+        "Jahval Mahmaerd",
+        "Kanye",
+        "Pistol",
+        "SMG",
+        "Shotgun",
+        "Silenzzio",
+        "Stun Grenade",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Bazaar_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "AP Mine",
+        "AR",
+        "Couperet",
+        "Gamma",
+        "Glock",
+        "Hand Grenade",
+        "Pistol",
+        "SMG",
+        "Serac",
+        "Shotgun",
+        "Taser"
+      ]
+    }
+  },
+  "Bazaar_03_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "AR",
+        "Couperet",
+        "Glock",
+        "Hand Grenade",
+        "Pistol",
+        "Repulsar",
+        "Smith Carbine",
+        "Stylus"
+      ]
+    }
+  },
+  "Bazaar_Alleyway": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "Glock",
+        "Kusma",
+        "Revolver",
+        "Smith Carbine",
+        "Stun Grenade",
+        "StunMine",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Bazaar_Alleyway_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Silenzzio",
+        "Stun Grenade",
+        "StunMine",
+        "Tromblonj",
+        "Warden"
+      ]
+    }
+  },
+  "Bazaar_Apt": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["AP Mine", "Glock", "Stun Grenade"]
+    }
+  },
+  "Bazaar_Apt_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["Claymore", "Couperet"]
+    }
+  },
+  "Bazaar_Balcony": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["Pistol", "Smith Carbine"]
+    }
+  },
+  "Bazaar_Balcony_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["Claymore", "Pistol", "Stun Grenade"]
+    }
+  },
+  "Bazaar_Canal": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "FG42",
+        "Glock",
+        "HK_Caws",
+        "HK_G11",
+        "Hand Grenade",
+        "Sawed Off",
+        "Silenzzio",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Bazaar_Canal_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["AP Mine", "Hand Grenade", "Minigun", "Stun Grenade"]
+    }
+  },
+  "Bazaar_Charshi": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "Hand Grenade",
+        "Pistol",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun",
+        "Stun Grenade",
+        "Stylus",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Bazaar_Charshi_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["AP Mine", "Silenzzio", "Stun Grenade"]
+    }
+  },
+  "Bazaar_Chati": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "Glock",
+        "Kanye",
+        "Mac10",
+        "Pistol",
+        "Revolver",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Bazaar_Chati_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["Rocket Launcher"]
+    }
+  },
+  "Bazaar_Hideout": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Couperet",
+        "Curved Knife",
+        "Glock",
+        "Pistol",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Bazaar_Hideout_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["Hand Grenade", "Proximity Mine", "Stun Grenade", "StunMine"]
+    }
+  },
+  "Bazaar_Marketplace": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Claymore",
+        "Katana",
+        "Pistol",
+        "SMG",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Bazaar_Marketplace_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["FG42", "Hand Grenade", "Hill_H15", "Kusma"]
+    }
+  },
+  "Bazaar_Overhang": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "Glock",
+        "M2000",
+        "Mac10",
+        "Minigun",
+        "Pistol",
+        "Sawed Off",
+        "Stun Grenade",
+        "Taser"
+      ]
+    }
+  },
+  "Bazaar_Overhang_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "Glock",
+        "Hand Grenade",
+        "Kusma",
+        "Oklahoma",
+        "Pistol",
+        "Silenzzio",
+        "Smith Carbine",
+        "Stun Grenade",
+        "Taser",
+        "Warden"
+      ]
+    }
+  },
+  "Bazaar_Refuge": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": [
+        "Glock",
+        "Gust",
+        "Havoc",
+        "Mac10",
+        "Revolver",
+        "SMG",
+        "Stun Grenade",
+        "Stylus"
+      ]
+    }
+  },
+  "Bazaar_Refuge_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Bazaar",
+    "weapons": {
+      "spawners": ["AP Mine", "Couperet", "Impetus", "Stun Grenade", "StunMine"]
+    }
+  },
+  "Cage_Fight_00_Day": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Cage Fight",
+    "weapons": {
+      "spawners": ["Sawed Off"],
+      "vending_machine": [
+        "Beam Load",
+        "Crisis",
+        "Glock",
+        "Pistol",
+        "Revolver",
+        "Silenzzio",
+        "Webley"
+      ]
+    }
+  },
+  "Cage_Fight_00_Night": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Cage Fight",
+    "weapons": {
+      "spawners": ["Taser"],
+      "vending_machine": [
+        "Baseball Bat",
+        "Couperet",
+        "Flamberge",
+        "Jahval Mahmaerd",
+        "Katana",
+        "Nizeh",
+        "Oklahoma",
+        "Stylus"
+      ]
+    }
+  },
+  "Cage_Fight_00_Sunset": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Cage Fight",
+    "weapons": {
+      "spawners": ["Repulsar"],
+      "vending_machine": [
+        "AP Mine",
+        "Claymore",
+        "Gland Grenade",
+        "Hand Grenade",
+        "Proximity Mine"
+      ]
+    }
+  },
+  "Canliferous_fluorspar": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Canliferous",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "AP Mine",
+        "Flamberge",
+        "Hand Grenade",
+        "Pistol",
+        "SMG",
+        "Sawed Off"
+      ],
+      "vending_machine": ["Glock", "Pistol", "Revolver", "Silenzzio", "Webley"]
+    }
+  },
+  "Canliferous_fluorspar_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Canliferous",
+    "weapons": {
+      "spawners": ["Flamberge", "Prophet", "Rocket Launcher"],
+      "vending_machine": ["Glock", "Pistol", "Revolver", "Silenzzio", "Webley"]
+    }
+  },
+  "Canliferous_map": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Canliferous",
+    "weapons": {
+      "spawners": ["Couperet", "Pistol", "Revolver", "SMG", "Sawed Off"]
+    }
+  },
+  "Chateaux_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": [
+        "Dual Launcher",
+        "Flamberge",
+        "Gamma",
+        "Havoc",
+        "Kanye",
+        "M2000",
+        "Minigun",
+        "Pistol"
+      ]
+    }
+  },
+  "Chateaux_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["Beam Load", "Couperet", "Kanye"]
+    }
+  },
+  "Chateaux_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": [
+        "Flamberge",
+        "Hand Grenade",
+        "Kanye",
+        "Mac10",
+        "Proximity Mine",
+        "Repulsar"
+      ]
+    }
+  },
+  "Chateaux_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": [
+        "Dual Launcher",
+        "Flamberge",
+        "Gland Grenade",
+        "Mac10",
+        "Minigun",
+        "Proximity Mine",
+        "Shotgun"
+      ]
+    }
+  },
+  "Chateaux_05": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": [
+        "AR",
+        "Flamberge",
+        "Hand Grenade",
+        "Kanye",
+        "Mac10",
+        "Shotgun"
+      ]
+    }
+  },
+  "Chateaux_06_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Claymore",
+        "Gland Grenade",
+        "Jahval Mahmaerd",
+        "Nizeh",
+        "Oklahoma",
+        "SMG",
+        "Shotgun",
+        "Stylus"
+      ]
+    }
+  },
+  "Chateaux_06_NoGrass": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["Pistol", "SMG", "Shotgun"]
+    }
+  },
+  "Chateaux_07_NoGrass_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["AR", "Couperet"]
+    }
+  },
+  "Chateaux_09": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": [
+        "Phoenix",
+        "Proximity Mine",
+        "SMG",
+        "Sawed Off",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Chateaux_10": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Couperet",
+        "Gland Grenade",
+        "Mortini",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Chateaux_11": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["Phoenix", "SMG", "Sawed Off", "Taser"]
+    }
+  },
+  "Chateaux_12": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["Gamma", "M2000", "Minigun", "Mortini"]
+    }
+  },
+  "Chateaux_13": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["Jahval Mahmaerd", "Proximity Mine"]
+    }
+  },
+  "Chateaux_13_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["SMG", "Taser", "Tromblonj"]
+    }
+  },
+  "Chateaux_13_Alt_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Chateaux",
+    "weapons": {
+      "spawners": ["Hand Cannon", "Oklahoma"]
+    }
+  },
+  "Corridor_00": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Glock",
+        "M2000",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun"
+      ]
+    }
+  },
+  "Corridor_00_alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Claymore",
+        "Gland Grenade",
+        "Nizeh",
+        "Taser",
+        "Warden"
+      ]
+    }
+  },
+  "Corridor_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["Beam Load", "Claymore"]
+    }
+  },
+  "Corridor_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["M2000", "Minigun"]
+    }
+  },
+  "Corridor_02_alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": { "spawners": ["AAA12", "Crisis", "Stylus"] }
+  },
+  "Corridor_03": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["Hand Cannon", "M2000", "Repulsar"]
+    }
+  },
+  "Corridor_03_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Bender",
+        "Crisis",
+        "M2000",
+        "Mac10",
+        "Nizeh",
+        "Phoenix",
+        "Propeller",
+        "Repulsar",
+        "Rocket Launcher",
+        "SMG"
+      ]
+    }
+  },
+  "Corridor_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["M2000", "SMG"]
+    }
+  },
+  "Corridor_04_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["Bukanee", "Hill_H15"]
+    }
+  },
+  "Corridor_05": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["AK", "AR", "Dual Launcher", "Gland Grenade", "Mortini"]
+    }
+  },
+  "Corridor_07": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": [
+        "Baseball Bat",
+        "Beam Load",
+        "Mac10",
+        "Revolver",
+        "Shotgun",
+        "Smith Carbine"
+      ]
+    }
+  },
+  "Corridor_07_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": { "spawners": ["AAA12", "Bender", "Hill_H15", "Oklahoma"] }
+  },
+  "Corridor_08": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun",
+        "Silenzzio",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Corridor_08_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": [
+        "Beam Load",
+        "Claymore",
+        "Couperet",
+        "Gland Grenade",
+        "Mac10",
+        "Repulsar",
+        "Sawed Off",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Corridor_10": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["Gland Grenade", "Stylus"]
+    }
+  },
+  "Corridor_11": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["Gland Grenade", "Gust", "Hand Grenade", "Stylus"]
+    }
+  },
+  "Corridor_12": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Corridor",
+    "weapons": {
+      "spawners": ["Bayshore", "Gland Grenade"]
+    }
+  },
+  "Dragonfly_ADifferentPlace_01": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Baseball Bat"]
+    }
+  },
+  "Dragonfly_ADifferentPlace_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Blank State", "Taser"]
+    }
+  },
+  "Dragonfly_ADifferentPlace_02": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Bender", "Flamberge", "Havoc"]
+    }
+  },
+  "Dragonfly_ADifferentPlace_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Pistol", "Proximity Mine", "StunMine"]
+    }
+  },
+  "Dragonfly_Abduction": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "God Sword",
+        "HK_G11",
+        "Jahval Mahmaerd",
+        "Katana",
+        "Torrent"
+      ]
+    }
+  },
+  "Dragonfly_Abduction_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Blank State", "Kusma", "QCW05", "Yangtse"]
+    }
+  },
+  "Dragonfly_BarrelBattle": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Flamberge"]
+    }
+  },
+  "Dragonfly_BarrelBattle_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Crisis", "Propeller"]
+    }
+  },
+  "Dragonfly_Basalt": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Kusma"]
+    }
+  },
+  "Dragonfly_Basalt_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Curved Knife", "Torrent"]
+    }
+  },
+  "Dragonfly_Bowl": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Impetus", "Proximity Mine"]
+    }
+  },
+  "Dragonfly_Bowl_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Bender", "Bukanee", "Elephant", "Nizeh", "Prophet"]
+    }
+  },
+  "Dragonfly_Cliffs": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "Flamberge",
+        "Mac10",
+        "SMG",
+        "Shotgun",
+        "Smith Carbine",
+        "Webley"
+      ]
+    }
+  },
+  "Dragonfly_Cliffs_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Baseball Bat",
+        "Couperet",
+        "Flamberge",
+        "Jahval Mahmaerd",
+        "Katana",
+        "Stylus"
+      ]
+    }
+  },
+  "Dragonfly_Crusher": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Repulsar", "Taser"]
+    }
+  },
+  "Dragonfly_Crusher_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Repulsar", "StunMine"]
+    }
+  },
+  "Dragonfly_Crusher_Underwater_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Stylus"]
+    }
+  },
+  "Dragonfly_Depths": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Claymore", "Kusma"]
+    }
+  },
+  "Dragonfly_Depths_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Claymore", "Hill_H15"]
+    }
+  },
+  "Dragonfly_Earthscraper": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Glock",
+        "Gust",
+        "Hand Grenade",
+        "Kanye",
+        "Proximity Mine",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Dragonfly_Earthscraper_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Couperet", "Phoenix", "Revolver", "Taser"]
+    }
+  },
+  "Dragonfly_Fracture": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["FG42", "Flamberge", "Glaive Gun", "M2000", "Yangtse"]
+    }
+  },
+  "Dragonfly_Fracture_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Curved Knife", "Gland Grenade", "Warden"]
+    }
+  },
+  "Dragonfly_Helicopter": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Bender", "Propeller", "SMG", "Torrent", "Yangtse"]
+    }
+  },
+  "Dragonfly_Helicopter_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["God Sword", "Katana"]
+    }
+  },
+  "Dragonfly_IceSlide_01": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Bender",
+        "Dispenser",
+        "Gamma",
+        "Havoc",
+        "Proximity Mine",
+        "Revolver",
+        "Serac",
+        "Smith Carbine"
+      ]
+    }
+  },
+  "Dragonfly_IceSlide_02": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Gamma",
+        "Havoc",
+        "Mac10",
+        "Proximity Mine",
+        "Revolver",
+        "Stylus"
+      ]
+    }
+  },
+  "Dragonfly_Lancer": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Katana"]
+    }
+  },
+  "Dragonfly_Lancer_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Nizeh"]
+    }
+  },
+  "Dragonfly_Neighbourhood": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Bender", "FG42", "Havoc", "Smith Carbine"]
+    }
+  },
+  "Dragonfly_Neighbourhood_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Mortini", "Silenzzio"]
+    }
+  },
+  "Dragonfly_Pillars": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Beam Load",
+        "Elephant",
+        "Gamma Gen 2",
+        "Hand Cannon",
+        "Propeller"
+      ]
+    }
+  },
+  "Dragonfly_Pillars_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Bayshore"]
+    }
+  },
+  "Dragonfly_Pit": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Keso", "Phoenix"]
+    }
+  },
+  "Dragonfly_Pit_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Dispenser",
+        "Dual Launcher",
+        "Prophet",
+        "Revolver",
+        "Rocket Launcher"
+      ]
+    }
+  },
+  "Dragonfly_Sewer": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Claymore", "Flamberge", "Glock", "Hand Grenade", "Shotgun"]
+    }
+  },
+  "Dragonfly_Sewer_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Beam Load", "Gamma", "Proximity Mine", "Taser"],
+      "vending_machine": [
+        "Beam Load",
+        "Gamma",
+        "Gamma Gen 2",
+        "Hand Cannon",
+        "Prophet",
+        "Taser"
+      ]
+    }
+  },
+  "Dragonfly_Sewer_Alt_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Blister", "Couperet", "Cyst", "Taser"]
+    }
+  },
+  "Dragonfly_Shrine": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Bukanee",
+        "Claymore",
+        "Glock",
+        "Hand Grenade",
+        "Mac10",
+        "SMG",
+        "Shotgun"
+      ]
+    }
+  },
+  "Dragonfly_Shrine_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Flash Light",
+        "Glock",
+        "Hand Grenade",
+        "Sawed Off",
+        "Warden"
+      ]
+    }
+  },
+  "Dragonfly_Shrine_Alt_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["God Sword"]
+    }
+  },
+  "Dragonfly_Space": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Bukanee",
+        "Elephant",
+        "Katana",
+        "M2000",
+        "Repulsar",
+        "Rocket Launcher",
+        "Shotgun"
+      ]
+    }
+  },
+  "Dragonfly_Space_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Baseball Bat",
+        "Couperet",
+        "Flamberge",
+        "God Sword",
+        "Jahval Mahmaerd",
+        "Nizeh",
+        "Proximity Mine"
+      ]
+    }
+  },
+  "Dragonfly_Stairway": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Bender",
+        "Dual Launcher",
+        "Hand Grenade",
+        "Impetus",
+        "Kusma"
+      ]
+    }
+  },
+  "Dragonfly_Stairway_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Impetus"]
+    }
+  },
+  "Dragonfly_Streets": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Sawed Off", "StunMine"]
+    }
+  },
+  "Dragonfly_Streets_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Havoc", "QCW05"]
+    }
+  },
+  "Dragonfly_Tunnel": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Gust", "SMG", "Warden"]
+    }
+  },
+  "Dragonfly_Tunnel_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Dual Launcher",
+        "Gland Grenade",
+        "Mortini",
+        "Rocket Launcher"
+      ]
+    }
+  },
+  "Dragonfly_Vestige": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "M2000",
+        "Pistol",
+        "Repulsar",
+        "SMG",
+        "Smith Carbine",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Dragonfly_Vestige_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "AK",
+        "Dual Launcher",
+        "Havoc",
+        "Mortini",
+        "Rocket Launcher"
+      ]
+    }
+  },
+  "Dragonfly_Vestige_Underwater_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "Gamma",
+        "Gust",
+        "Keso",
+        "Kusma",
+        "M2000",
+        "Smith Carbine",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Dragonfly_Waterway": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["FG42", "Kusma"]
+    }
+  },
+  "Dragonfly_Waterway_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Gland Grenade",
+        "Revolver",
+        "Stun Grenade",
+        "Stylus"
+      ]
+    }
+  },
+  "Dragonfly_Xanthate": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Blister", "Cyst"]
+    }
+  },
+  "Dragonfly_Xanthate_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Dragonfly",
+    "weapons": {
+      "spawners": ["Beam Load", "Blister", "Cyst", "Torrent"]
+    }
+  },
+  "Drain_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Drain",
+    "weapons": {
+      "spawners": ["AP Mine", "Jahval Mahmaerd", "Stylus", "Webley"]
+    }
+  },
+  "Drain_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Drain",
+    "weapons": {
+      "spawners": ["Claymore", "HK_G11", "SMG", "Sawed Off", "Silenzzio"]
+    }
+  },
+  "EndGame": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "vending_machine": [
+        "AP Mine",
+        "Baseball Bat",
+        "Gland Grenade",
+        "Hand Grenade",
+        "Propeller",
+        "Proximity Mine",
+        "Repulsar",
+        "Taser"
+      ]
+    }
+  },
+  "Factory_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Factory",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Gust",
+        "Havoc",
+        "Pistol",
+        "SMG",
+        "Sawed Off",
+        "StunMine"
+      ]
+    }
+  },
+  "Factory_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Factory",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "AR",
+        "Kanye",
+        "M2000",
+        "Mac10",
+        "Pistol",
+        "Shotgun",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Fortinayt_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Fortinayt",
+    "weapons": {
+      "spawners": ["Couperet", "Glock", "Shotgun"],
+      "vending_machine": ["Gland Grenade", "Hand Grenade"]
+    }
+  },
+  "Fortinayt_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Fortinayt",
+    "weapons": {
+      "spawners": [
+        "Baseball Bat",
+        "Bender",
+        "Jahval Mahmaerd",
+        "Propeller",
+        "Stylus"
+      ]
+    }
+  },
+  "Fortinayt_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Fortinayt",
+    "weapons": {
+      "spawners": ["Hand Grenade", "M2000", "Pistol", "Revolver", "Torrent"]
+    }
+  },
+  "Garden_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Garden",
+    "weapons": {
+      "spawners": ["AP Mine", "Crisis", "Silenzzio"]
+    }
+  },
+  "Garden_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Garden",
+    "weapons": {
+      "spawners": ["AP Mine", "Dual Launcher", "Hill_H15", "Proximity Mine"]
+    }
+  },
+  "Garden_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Garden",
+    "weapons": {
+      "spawners": ["HK_Caws", "Havoc", "Jahval Mahmaerd", "Revolver"]
+    }
+  },
+  "Garden_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Garden",
+    "weapons": {
+      "spawners": ["Dual Launcher", "HK_Caws", "Hill_H15", "Nizeh", "Tromblonj"]
+    }
+  },
+  "Garden_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Garden",
+    "weapons": {
+      "spawners": ["HK_Caws", "Keso"]
+    }
+  },
+  "Garden_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Garden",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Couperet",
+        "Kusma",
+        "Oklahoma",
+        "Proximity Mine",
+        "Shotgun",
+        "Yangtse"
+      ]
+    }
+  },
+  "Garden_04_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Garden",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "AP Mine",
+        "Couperet",
+        "Phoenix",
+        "Proximity Mine",
+        "Warden"
+      ]
+    }
+  },
+  "Gobi_00": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Bayshore", "FG42"]
+    }
+  },
+  "Gutenberg_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Gutenberg",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Gland Grenade",
+        "Pistol",
+        "Repulsar",
+        "SMG",
+        "Shotgun",
+        "StunMine"
+      ]
+    }
+  },
+  "Gutenberg_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Gutenberg",
+    "weapons": {
+      "spawners": ["Gust", "Stylus"]
+    }
+  },
+  "Gutenberg_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Gutenberg",
+    "weapons": {
+      "spawners": ["Kusma", "Stun Grenade"]
+    }
+  },
+  "HK_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "HK",
+    "weapons": {
+      "spawners": ["AR", "Hand Grenade", "Pistol", "Shotgun"]
+    }
+  },
+  "HK_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "HK",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Gland Grenade",
+        "Jahval Mahmaerd",
+        "Nizeh",
+        "Repulsar",
+        "Stylus",
+        "Taser"
+      ]
+    }
+  },
+  "HK_03": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "HK",
+    "weapons": {
+      "spawners": [
+        "AR",
+        "Couperet",
+        "Hand Grenade",
+        "M2000",
+        "Mac10",
+        "Pistol",
+        "Shotgun"
+      ]
+    }
+  },
+  "HK_03_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "HK",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Couperet",
+        "Gland Grenade",
+        "Glock",
+        "Hand Cannon",
+        "SMG",
+        "Sawed Off",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "HK_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "HK",
+    "weapons": {
+      "spawners": ["Katana"]
+    }
+  },
+  "HighWall_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Webley"],
+      "vending_machine": ["Gland Grenade", "Hand Grenade"]
+    }
+  },
+  "Hinterland_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Hinterland",
+    "weapons": {
+      "spawners": ["Beam Load", "Gamma", "Gland Grenade", "Proximity Mine"]
+    }
+  },
+  "Hinterland_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Hinterland",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Nizeh",
+        "Oklahoma",
+        "Proximity Mine",
+        "SMG",
+        "Stylus"
+      ]
+    }
+  },
+  "Hinterland_01": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Couperet", "Gland Grenade", "Shotgun"]
+    }
+  },
+  "Hinterland_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Flamberge", "Nizeh", "Oklahoma"]
+    }
+  },
+  "Hushardzan_Bereket": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": ["Glock", "Hand Grenade", "Mortini", "Stylus", "Torrent"]
+    }
+  },
+  "Hushardzan_Bereket_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": ["Curved Knife", "Hand Grenade", "Stun Grenade"]
+    }
+  },
+  "Hushardzan_Burdock": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Dispenser",
+        "Hand Grenade",
+        "Kanye",
+        "Shotgun",
+        "Silenzzio",
+        "Smith Carbine",
+        "Stylus"
+      ]
+    }
+  },
+  "Hushardzan_Burdock_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": [
+        "Havoc",
+        "Minigun",
+        "Prophet",
+        "Proximity Mine",
+        "Revolver",
+        "Stun Grenade",
+        "Warden"
+      ]
+    }
+  },
+  "Hushardzan_Ikiz": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": ["AK", "Hand Grenade", "M2000", "Oklahoma", "Smith Carbine"]
+    }
+  },
+  "Hushardzan_Ikiz_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Claymore",
+        "Oklahoma",
+        "Repulsar",
+        "Revolver",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Hushardzan_Jrambar": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": [
+        "Curved Knife",
+        "Dispenser",
+        "Glock",
+        "Minigun",
+        "Smith Carbine",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Hushardzan_Jrambar_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": [
+        "Blister",
+        "Curved Knife",
+        "Cyst",
+        "Dispenser",
+        "Hand Grenade"
+      ]
+    }
+  },
+  "Hushardzan_Orion": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": [
+        "Baseball Bat",
+        "Dispenser",
+        "Glock",
+        "Hand Grenade",
+        "Pistol",
+        "Proximity Mine",
+        "Sawed Off",
+        "Stylus",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Hushardzan_Orion_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Hushardzan",
+    "weapons": {
+      "spawners": ["Pistol", "Rocket Launcher", "Sawed Off"]
+    }
+  },
+  "ICE_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "ICE",
+    "weapons": {
+      "pipe": [
+        "Hand Grenade",
+        "Minigun",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun",
+        "Taser"
+      ]
+    }
+  },
+  "ICE_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "ICE",
+    "weapons": {
+      "pipe": [
+        "AAA12",
+        "AK",
+        "AR",
+        "Baseball Bat",
+        "Beam Load",
+        "Bender",
+        "Blank State",
+        "Claymore",
+        "Couperet",
+        "Crisis",
+        "Dispenser",
+        "Dual Launcher",
+        "Elephant",
+        "Flamberge",
+        "Flash Light",
+        "Gamma",
+        "Glaive Gun",
+        "Gland Grenade",
+        "Glock",
+        "Hand Cannon",
+        "Hand Grenade",
+        "Havoc",
+        "Jahval Mahmaerd",
+        "Kanye",
+        "M2000",
+        "Mac10",
+        "Minigun",
+        "Mortini",
+        "Nizeh",
+        "Oklahoma",
+        "Phoenix",
+        "Pistol",
+        "Propeller",
+        "Prophet",
+        "Proximity Mine",
+        "Repulsar",
+        "Revolver",
+        "Rocket Launcher",
+        "SMG",
+        "Sawed Off",
+        "Serac",
+        "Shotgun",
+        "Silenzzio",
+        "Smith Carbine",
+        "Stylus",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "ICE_02": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "ICE",
+    "weapons": {
+      "spawners": ["Hand Grenade"],
+      "pipe": [
+        "Claymore",
+        "Hand Grenade",
+        "Mac10",
+        "Minigun",
+        "Proximity Mine",
+        "SMG",
+        "Shotgun"
+      ]
+    }
+  },
+  "ICE_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "ICE",
+    "weapons": {
+      "pipe": ["Proximity Mine", "Smith Carbine", "Taser", "Tromblonj"]
+    }
+  },
+  "ICE_04": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "ICE",
+    "weapons": {
+      "pipe": ["Hand Cannon", "Proximity Mine", "Repulsar"]
+    }
+  },
+  "ICE_05": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "ICE",
+    "weapons": {
+      "pipe": ["Proximity Mine", "Smith Carbine", "Taser", "Tromblonj"]
+    }
+  },
+  "ICE_06": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "ICE",
+    "weapons": {
+      "pipe": ["Baseball Bat", "Crisis", "Smith Carbine"]
+    }
+  },
+  "Impasse01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Dual Launcher",
+        "Pistol",
+        "Shotgun",
+        "Smith Carbine"
+      ]
+    }
+  },
+  "JF_Poolrooms_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "JellyFish",
+    "weapons": {
+      "spawners": [
+        "AR",
+        "Curved Knife",
+        "Flamberge",
+        "Gust",
+        "SMG",
+        "Shotgun",
+        "Stun Grenade",
+        "Taser",
+        "Tromblonj"
+      ],
+      "vending_machine": ["Taser"]
+    }
+  },
+  "JF_Space": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "JellyFish",
+    "weapons": {
+      "spawners": [
+        "Flamberge",
+        "Gamma",
+        "Gland Grenade",
+        "Gust",
+        "HK_G11",
+        "Hand Grenade",
+        "Repulsar",
+        "Sawed Off",
+        "Silenzzio"
+      ]
+    }
+  },
+  "JF_Statue": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "JellyFish",
+    "weapons": {
+      "spawners": ["Bukanee", "Curved Knife", "FG42", "QCW05"]
+    }
+  },
+  "JF_Statue_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "JellyFish",
+    "weapons": {
+      "spawners": ["Curved Knife", "Flamberge", "Oklahoma", "Repulsar"]
+    }
+  },
+  "LostCity_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "LostCity",
+    "weapons": {
+      "spawners": ["Bukanee", "QCW05", "Rocket Launcher"]
+    }
+  },
+  "LostCity_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "LostCity",
+    "weapons": {
+      "spawners": ["Katana"]
+    }
+  },
+  "LostCity_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "LostCity",
+    "weapons": {
+      "spawners": ["Gamma Gen 2"]
+    }
+  },
+  "Neo_Arena_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": [
+        "Glock",
+        "Hand Grenade",
+        "M2000",
+        "Mac10",
+        "Pistol",
+        "SMG",
+        "Shotgun"
+      ]
+    }
+  },
+  "Neo_Arena_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": [
+        "Bender",
+        "Claymore",
+        "Kanye",
+        "Nizeh",
+        "Oklahoma",
+        "Sawed Off"
+      ]
+    }
+  },
+  "Neo_Arena_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Dispenser", "Glaive Gun", "Glock", "Revolver", "Shotgun"]
+    }
+  },
+  "Neo_Arena_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Flamberge", "Pistol", "Revolver", "SMG", "Shotgun"]
+    }
+  },
+  "Neo_Arena_03": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Elephant", "Flamberge", "Glock", "Havoc", "Mac10"]
+    }
+  },
+  "Neo_Arena_04_0": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Elephant", "Hand Cannon", "Havoc", "Minigun", "Taser"]
+    }
+  },
+  "Neo_Arena_04_1": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Beam Load", "M2000", "Mac10", "Repulsar"],
+      "vending_machine": [
+        "AR",
+        "Couperet",
+        "Glock",
+        "Havoc",
+        "Kanye",
+        "Mortini",
+        "Pistol",
+        "Revolver",
+        "Shotgun",
+        "Taser"
+      ]
+    }
+  },
+  "Neo_Arena_05_0": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Glock", "Shotgun"]
+    }
+  },
+  "Neo_Arena_05_1": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Mac10"]
+    }
+  },
+  "Neo_Arena_05_1_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Serac"]
+    }
+  },
+  "Neo_Arena_06": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["M2000", "SMG"]
+    }
+  },
+  "Neo_Arena_07": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["AK", "SMG", "Shotgun"]
+    }
+  },
+  "Neo_Arena_07_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Crisis", "Pistol"]
+    }
+  },
+  "Neo_Arena_08": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Glock"],
+      "vending_machine": [
+        "Beam Load",
+        "Dispenser",
+        "Elephant",
+        "Flamberge",
+        "Glaive Gun",
+        "Glock",
+        "Hand Cannon",
+        "Hand Grenade",
+        "Havoc",
+        "M2000",
+        "Minigun",
+        "Pistol",
+        "Proximity Mine",
+        "SMG",
+        "Taser"
+      ]
+    }
+  },
+  "Neo_Arena_09": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Dispenser", "Flamberge"],
+      "vending_machine": [
+        "AR",
+        "Beam Load",
+        "Couperet",
+        "Glock",
+        "Havoc",
+        "Mac10",
+        "Minigun",
+        "Pistol",
+        "Revolver",
+        "Rocket Launcher",
+        "SMG",
+        "Shotgun",
+        "Taser"
+      ]
+    }
+  },
+  "Neo_Arena_10": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Revolver"]
+    }
+  },
+  "Neo_Arena_10_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Claymore", "Crisis", "Jahval Mahmaerd", "Warden"]
+    }
+  },
+  "Neo_Arena_11": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Elephant"],
+      "vending_machine": ["Gland Grenade", "M2000"]
+    }
+  },
+  "Neo_Arena_11_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["AAA12", "Crisis", "Jahval Mahmaerd", "Tromblonj"]
+    }
+  },
+  "Neo_Arena_12": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Elephant"],
+      "vending_machine": ["Baseball Bat", "Flamberge", "Kanye", "Repulsar"]
+    }
+  },
+  "Neo_Arena_12_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Baseball Bat", "Propeller"],
+      "vending_machine": [
+        "AAA12",
+        "Bender",
+        "Crisis",
+        "Jahval Mahmaerd",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Neo_Arena_14": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Claymore", "Couperet", "Tromblonj"]
+    }
+  },
+  "Neo_Arena_14_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Neo Arena",
+    "weapons": {
+      "spawners": ["Warden"]
+    }
+  },
+  "Parking": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "Glock",
+        "Hand Grenade",
+        "Mac10",
+        "Pistol",
+        "Smith Carbine",
+        "Yangtse"
+      ]
+    }
+  },
+  "Parking_1_alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "Baseball Bat",
+        "Hand Grenade",
+        "Jahval Mahmaerd",
+        "Oklahoma",
+        "Pistol",
+        "StunMine",
+        "Stylus",
+        "Taser"
+      ]
+    }
+  },
+  "Parking_alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "Hand Grenade",
+        "Pistol",
+        "Revolver",
+        "Shotgun",
+        "Silenzzio",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Patio_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["AP Mine", "Webley"],
+      "vending_machine": ["Gland Grenade", "Hand Grenade"]
+    }
+  },
+  "PigFarm_00": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Hand Grenade",
+        "Repulsar",
+        "Shotgun",
+        "Smith Carbine"
+      ]
+    }
+  },
+  "PlageTymoes_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "Dual Launcher",
+        "Elephant",
+        "Flamberge",
+        "Pistol",
+        "Sawed Off",
+        "Shotgun",
+        "Tromblonj"
+      ],
+      "pipe": ["Gland Grenade"]
+    }
+  },
+  "Prison_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "AK",
+        "Claymore",
+        "Glock",
+        "M2000",
+        "SMG",
+        "Sawed Off",
+        "Shotgun",
+        "Taser"
+      ]
+    }
+  },
+  "ReeperBahn_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "ReeperBahn",
+    "weapons": {
+      "spawners": ["Bukanee", "FG42", "QCW05"]
+    }
+  },
+  "ReeperBahn_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "ReeperBahn",
+    "weapons": {
+      "spawners": ["QCW05"]
+    }
+  },
+  "Republic_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Republic",
+    "weapons": {
+      "spawners": ["Revolver"],
+      "vending_machine": ["AR", "Hand Grenade", "Havoc", "Mortini"]
+    }
+  },
+  "Republic_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Republic",
+    "weapons": {
+      "spawners": ["Crisis", "Phoenix", "Propeller"],
+      "vending_machine": [
+        "AAA12",
+        "Bender",
+        "Gland Grenade",
+        "Mac10",
+        "Phoenix",
+        "Sawed Off"
+      ]
+    }
+  },
+  "Republic_01": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Republic",
+    "weapons": {
+      "spawners": ["Baseball Bat", "Claymore", "Flash Light", "Silenzzio"],
+      "vending_machine": ["Couperet", "Glaive Gun", "Mac10", "Phoenix", "Taser"]
+    }
+  },
+  "Republic_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Republic",
+    "weapons": {
+      "spawners": ["Couperet", "Jahval Mahmaerd"],
+      "vending_machine": [
+        "AK",
+        "AR",
+        "Hand Grenade",
+        "Kanye",
+        "Mac10",
+        "Repulsar",
+        "Sawed Off",
+        "Smith Carbine",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Republic_03": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Republic",
+    "weapons": {
+      "vending_machine": [
+        "Baseball Bat",
+        "Couperet",
+        "Hand Cannon",
+        "Hand Grenade",
+        "Repulsar",
+        "Smith Carbine",
+        "Taser"
+      ]
+    }
+  },
+  "Republic_04": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Republic",
+    "weapons": {
+      "spawners": ["Repulsar"]
+    }
+  },
+  "Republic_05": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Republic",
+    "weapons": {
+      "vending_machine": [
+        "AK",
+        "AR",
+        "Baseball Bat",
+        "Beam Load",
+        "Blank State",
+        "Claymore",
+        "Couperet",
+        "Dispenser",
+        "Dual Launcher",
+        "Flash Light",
+        "Gamma",
+        "Glaive Gun",
+        "Gland Grenade",
+        "Glock",
+        "Hand Cannon",
+        "Hand Grenade",
+        "Havoc",
+        "Kanye",
+        "M2000",
+        "Mac10",
+        "Minigun",
+        "Mortini",
+        "Phoenix",
+        "Pistol",
+        "Proximity Mine",
+        "Repulsar",
+        "Revolver",
+        "SMG",
+        "Sawed Off",
+        "Shotgun",
+        "Silenzzio",
+        "Smith Carbine",
+        "Taser",
+        "Tromblonj"
+      ]
+    }
+  },
+  "Republic_07": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Republic",
+    "weapons": {
+      "spawners": ["Claymore", "Couperet", "Flamberge", "M2000", "Repulsar"]
+    }
+  },
+  "Republic_07_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Republic",
+    "weapons": {
+      "spawners": ["Flamberge", "Nizeh", "Pistol", "SMG", "Tromblonj"]
+    }
+  },
+  "Republic_08": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "Republic",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Flamberge",
+        "Jahval Mahmaerd",
+        "Nizeh",
+        "Oklahoma",
+        "Repulsar",
+        "Stylus",
+        "Taser"
+      ]
+    }
+  },
+  "Scaffoldingue_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Revolver", "Shotgun", "Smith Carbine"]
+    }
+  },
+  "Sonova_Bankment": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": [
+        "Couperet",
+        "Havoc",
+        "Mac10",
+        "Pistol",
+        "SMG",
+        "Silenzzio",
+        "Taser"
+      ]
+    }
+  },
+  "Sonova_Chimney": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": ["AP Mine", "Bukanee", "Repulsar", "Sawed Off", "Yangtse"]
+    }
+  },
+  "Sonova_Chimney_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": ["Beam Load", "Elephant", "Kusma", "QCW05"]
+    }
+  },
+  "Sonova_RoadSide": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": [
+        "AP Mine",
+        "Claymore",
+        "Crisis",
+        "Curved Knife",
+        "Dispenser",
+        "Repulsar",
+        "StunMine",
+        "Yangtse"
+      ]
+    }
+  },
+  "Sonova_RoadSide_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "AK",
+        "Claymore",
+        "Couperet",
+        "Glock",
+        "Gust",
+        "Impetus",
+        "Repulsar",
+        "SMG"
+      ]
+    }
+  },
+  "Sonova_Sewage": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": ["Flamberge", "Impetus"]
+    }
+  },
+  "Sonova_Skatepark": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": [
+        "Baseball Bat",
+        "Claymore",
+        "Impetus",
+        "Jahval Mahmaerd",
+        "Oklahoma",
+        "Stun Grenade"
+      ]
+    }
+  },
+  "Sonova_TheDome": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Sonova",
+    "weapons": {
+      "spawners": ["Dispenser", "Gust", "Stylus", "Webley"]
+    }
+  },
+  "StLucia_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["AP Mine", "Gland Grenade", "HK_G11", "Hill_H15", "Webley"]
+    }
+  },
+  "StLucia_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["AP Mine", "Flamberge"]
+    }
+  },
+  "StLucia_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["HK_G11", "M2000", "Phoenix", "Pistol", "Repulsar"]
+    }
+  },
+  "StLucia_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["AP Mine", "Mac10", "Revolver", "SMG"]
+    }
+  },
+  "StLucia_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["AAA12", "AR", "Hand Grenade", "Kusma"]
+    }
+  },
+  "StLucia_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": [
+        "AAA12",
+        "Dispenser",
+        "Dual Launcher",
+        "HK_G11",
+        "Oklahoma",
+        "Sawed Off"
+      ]
+    }
+  },
+  "StLucia_03_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["AAA12", "Gland Grenade", "HK_G11"]
+    }
+  },
+  "StLucia_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["Katana"]
+    }
+  },
+  "StLucia_04_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "StLucia",
+    "weapons": {
+      "spawners": ["FG42", "Gland Grenade", "HK_G11", "M2000", "Nizeh"]
+    }
+  },
+  "Stadium_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Stadium",
+    "weapons": {
+      "spawners": ["Mac10", "Pistol", "Stylus", "Webley"]
+    }
+  },
+  "Stadium_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Stadium",
+    "weapons": {
+      "spawners": ["Claymore", "Gland Grenade", "Pistol", "Yangtse"]
+    }
+  },
+  "Stadium_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Stadium",
+    "weapons": {
+      "spawners": ["Hand Grenade", "Jahval Mahmaerd", "Kusma"]
+    }
+  },
+  "Stadium_01_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Stadium",
+    "weapons": {
+      "spawners": ["AR", "Couperet", "Silenzzio", "Stun Grenade"]
+    }
+  },
+  "Stadium_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Stadium",
+    "weapons": {
+      "spawners": ["Claymore", "Keso", "Minigun"]
+    }
+  },
+  "Stadium_02_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Stadium",
+    "weapons": {
+      "spawners": ["Kusma", "StunMine", "Stylus"]
+    }
+  },
+  "Stroke_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Stroke",
+    "weapons": {
+      "spawners": ["FG42", "HK_G11", "M2000"],
+      "vending_machine": ["Gland Grenade", "Hand Grenade"]
+    }
+  },
+  "Stroke_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Stroke",
+    "weapons": {
+      "spawners": ["Claymore", "Gland Grenade", "HK_G11", "Webley"]
+    }
+  },
+  "TerminalPalace_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TerminalPalace",
+    "weapons": {
+      "spawners": ["AK", "Dispenser", "Shotgun"]
+    }
+  },
+  "TerminalPalace_02": {
+    "category": "dlc",
+    "alt": false,
+    "dlc": true,
+    "family": "TerminalPalace",
+    "weapons": {
+      "spawners": ["Blank State"]
+    }
+  },
+  "TheSamePlace_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["Webley"],
+      "vending_machine": ["HK_G11", "Webley"]
+    }
+  },
+  "TheSamePlace_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["FG42", "Hill_H15"]
+    }
+  },
+  "TheSamePlace_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["FG42", "QCW05"]
+    }
+  },
+  "TheSamePlace_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["HK_G11"]
+    }
+  },
+  "TheSamePlace_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["Hand Grenade", "QCW05", "Revolver"]
+    }
+  },
+  "TheSamePlace_04_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["Hand Grenade", "QCW05", "Revolver"]
+    }
+  },
+  "TheSamePlace_05": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["FG42", "QCW05"]
+    }
+  },
+  "TheSamePlace_06": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["HK_Caws", "HK_G11", "Webley"]
+    }
+  },
+  "TheSamePlace_07": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["Bukanee", "HK_Caws", "HK_G11", "Hill_H15"]
+    }
+  },
+  "TheSamePlace_08": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["Blank State", "Taser"]
+    }
+  },
+  "TheSamePlace_09": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["QCW05"]
+    }
+  },
+  "TheSamePlace_10": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["Blank State"]
+    }
+  },
+  "TheSamePlace_11": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["AP Mine", "Gland Grenade", "Hill_H15", "Shotgun"]
+    }
+  },
+  "TheSamePlace_12": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["Elephant", "Gland Grenade", "Havoc"]
+    }
+  },
+  "TheSamePlace_13": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["FG42"]
+    }
+  },
+  "TheSamePlace_14": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "TheSamePlace",
+    "weapons": {
+      "spawners": ["FG42", "HK_Caws"]
+    }
+  },
+  "Toilets_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Glock", "Pistol", "SMG", "Shotgun"]
+    }
+  },
+  "Toilets_00_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Baseball Bat", "Serac"]
+    }
+  },
+  "WestVillage_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Unique",
+    "weapons": {
+      "spawners": ["Dispenser", "Glock", "Havoc", "Pistol", "SMG"]
+    }
+  },
+  "WestVillage_04_Alt": {
+    "category": "alt",
+    "alt": true,
+    "dlc": true,
+    "family": "Unique",
+    "weapons": {
+      "spawners": [
+        "Claymore",
+        "Crisis",
+        "Flash Light",
+        "SMG",
+        "Stylus",
+        "Taser",
+        "Warden"
+      ]
+    }
+  },
+  "valhalla_00": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Valhalla",
+    "weapons": {
+      "spawners": ["Couperet", "Silenzzio"]
+    }
+  },
+  "valhalla_01": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Valhalla",
+    "weapons": {
+      "spawners": ["Rocket Launcher"]
+    }
+  },
+  "valhalla_02": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Valhalla",
+    "weapons": {
+      "spawners": ["Glock"]
+    }
+  },
+  "valhalla_03": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Valhalla",
+    "weapons": {
+      "spawners": ["Glock", "Mac10", "Shotgun"]
+    }
+  },
+  "valhalla_04": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Valhalla",
+    "weapons": {
+      "spawners": ["AP Mine", "Silenzzio", "Smith Carbine", "Taser"]
+    }
+  },
+  "valhalla_05": {
+    "category": "core",
+    "alt": false,
+    "dlc": false,
+    "family": "Valhalla",
+    "weapons": {
+      "spawners": ["M2000", "Silenzzio"]
+    }
+  }
+}
