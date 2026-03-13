@@ -19,6 +19,7 @@ export const weaponIdToName = {
   BlankState: "Blank State",
   BaseballBat: "Baseball Bat",
   StunGrenade: "Stun Grenade",
+  StunMine: "Stun Mine",
   CurvedKnife: "Curved Knife",
   FlashLight: "Flash Light",
   GammaGen2: "Gamma Gen 2",
