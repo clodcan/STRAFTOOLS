@@ -22,7 +22,7 @@ const MapCard = ({ mapName, selectedMaps, setSelectedMaps }) => {
       onClick={toggleMap}
     >
       <img
-        src={`/images/maps/${mapName}.png`}
+        src={`/images/maps/${mapName}.webp`}
         alt={mapName}
         className="rounded-t-lg border-b border-zinc-600 h-32 w-full object-cover"
         draggable="false"

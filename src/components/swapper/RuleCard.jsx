@@ -61,8 +61,8 @@ const RuleCard = ({
     setSelectedRule((prev) => (prev === rule.id ? null : rule.id));
 
   const imgSrc = hasMultipleMaps
-    ? "/images/maps/Rule_Thumbnail.png"
-    : `/images/maps/${rule.mapString}.png`;
+    ? "/images/maps/Rule_Thumbnail.webp"
+    : `/images/maps/${rule.mapString}.webp`;
 
   const mapCount = hasMultipleMaps ? `${rule.maps.length} Maps` : "1 Map";
 
