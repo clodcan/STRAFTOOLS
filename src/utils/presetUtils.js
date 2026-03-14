@@ -1,6 +1,6 @@
 import maps from "../data/maps.json";
 import { weaponNameToId, weaponIdToName } from "./weaponNames";
-import { expandWildcard, normalizeMapString } from "./mapUtils";
+import { expandPattern, normalizeMapString } from "./mapUtils";
 
 export const buildPresetJson = (rules, swapperName) => ({
   type: "swap",
@@ -46,7 +46,7 @@ export const parsePresetJson = (json) => {
       if (!isPattern && !normalizedMapString) return null;
 
       const mapList = isPattern
-        ? expandWildcard(m.MapString)
+        ? expandPattern(m.MapString)
         : [normalizedMapString];
 
       const allWeapons = [

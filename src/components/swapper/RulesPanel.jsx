@@ -8,7 +8,7 @@ import {
   MdGridView,
 } from "react-icons/md";
 import { errorToast, successToast } from "../../utils/toast";
-import { expandWildcard, normalizeMapString } from "../../utils/mapUtils";
+import { expandPattern, normalizeMapString } from "../../utils/mapUtils";
 
 const RulesPanel = ({
   setIsModalActive,
@@ -26,14 +26,11 @@ const RulesPanel = ({
 
   const handleRuleSubmit = () => {
     if (!ruleInput.trim()) return;
-
     const input = ruleInput.trim();
 
-    if (input.includes("*") || input.includes("?")) {
-      const matched = expandWildcard(input);
-      if (!matched || matched.length === 0)
-        return errorToast("No maps match that pattern");
+    const matched = expandPattern(input);
 
+    if (matched.length > 1) {
       const newRule = {
         id: crypto.randomUUID(),
         maps: matched,
@@ -42,10 +39,17 @@ const RulesPanel = ({
       };
       setRules((prev) => [...prev, newRule]);
       setSelectedRule(newRule.id);
+    } else if (matched.length === 1) {
+      const newRule = {
+        id: crypto.randomUUID(),
+        mapString: matched[0],
+        swaps: [],
+      };
+      setRules((prev) => [...prev, newRule]);
+      setSelectedRule(newRule.id);
     } else {
       const matchedMap = normalizeMapString(input);
       if (!matchedMap) return errorToast("Map not found");
-
       const newRule = {
         id: crypto.randomUUID(),
         mapString: matchedMap,
