@@ -10,7 +10,7 @@ const App = () => {
     selectedMode === mode ? "flex flex-1 overflow-hidden" : "hidden";
 
   return (
-    <div className="h-screen bg-zinc-950 text-white flex flex-col font-geist">
+    <div className="h-screen bg-zinc-950 text-white flex flex-col font-geist glassBg">
       <Toaster position="top-right" />
       <Navbar selectedMode={selectedMode} setSelectedMode={setSelectedMode} />
       <div className="flex flex-1 overflow-hidden">

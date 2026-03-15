@@ -16,6 +16,16 @@ const Navbar = ({ selectedMode, setSelectedMode }) => {
           Swapper Builder
         </button>
       </div>
+      <p className="ml-auto text-xs text-zinc-500">
+        built with ♥ by{" "}
+        <a
+          href="https://steamcommunity.com/id/clodcan/"
+          target="_blank"
+          className="underline"
+        >
+          clodcan
+        </a>
+      </p>
     </div>
   );
 };

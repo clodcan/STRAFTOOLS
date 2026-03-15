@@ -1,6 +1,13 @@
 import maps from "../../data/maps.json";
+import { MdInfoOutline } from "react-icons/md";
 
-const MapCard = ({ mapName, selectedMaps, setSelectedMaps }) => {
+const MapCard = ({
+  mapName,
+  selectedMaps,
+  setSelectedMaps,
+  setShowMapModal,
+  setMapModalMap,
+}) => {
   const isSelected = selectedMaps.includes(mapName);
   const weaponCount = Object.values(maps[mapName]?.weapons ?? {}).flat().length;
 
@@ -10,6 +17,12 @@ const MapCard = ({ mapName, selectedMaps, setSelectedMaps }) => {
         ? prev.filter((m) => m !== mapName)
         : [...prev, mapName],
     );
+
+  const openMapModal = (e) => {
+    e.stopPropagation();
+    setMapModalMap(mapName);
+    setShowMapModal(true);
+  };
 
   return (
     <div
@@ -27,11 +40,19 @@ const MapCard = ({ mapName, selectedMaps, setSelectedMaps }) => {
         className="rounded-t-lg border-b border-zinc-600 h-32 w-full object-cover"
         draggable="false"
       />
-      <div className="py-1 px-2 flex flex-col font-geistMono">
-        <p className="overflow-hidden text-sm">{mapName}</p>
-        <p className="text-xs text-zinc-400">
-          {weaponCount} {weaponCount === 1 ? "Weapon" : "Weapons"}
-        </p>
+      <div className="flex justify-between py-1 px-2 items-center">
+        <div className="flex flex-col font-geistMono overflow-hidden pr-2">
+          <p className="overflow-hidden text-sm">{mapName}</p>
+          <p className="text-xs text-zinc-400">
+            {weaponCount} {weaponCount === 1 ? "Weapon" : "Weapons"}
+          </p>
+        </div>
+        <button
+          className="border border-zinc-600 p-1 rounded-lg hover:bg-zinc-600 transition-all ease-in cursor-pointer flex items-center gap-1 justify-center"
+          onClick={(e) => openMapModal(e)}
+        >
+          <MdInfoOutline />
+        </button>
       </div>
     </div>
   );

@@ -10,6 +10,8 @@ const MapBrowser = ({
   activeFamilies,
   activeWeapons,
   weaponFilterMode,
+  setShowMapModal,
+  setMapModalMap,
 }) => {
   const [search, setSearch] = useState("");
 
@@ -60,13 +62,15 @@ const MapBrowser = ({
           <p className="text-sm">Add all</p>
         </button>
       </div>
-      <div className="gap-5 overflow-y-auto grid grid-cols-3 h-full content-start justify-stretch">
+      <div className="gap-5 overflow-y-auto grid grid-cols-3 h-full content-start justify-stretch p-1">
         {filteredMaps.map((mapName) => (
           <MapCard
             key={mapName}
             mapName={mapName}
             selectedMaps={selectedMaps}
             setSelectedMaps={setSelectedMaps}
+            setShowMapModal={setShowMapModal}
+            setMapModalMap={setMapModalMap}
           />
         ))}
       </div>

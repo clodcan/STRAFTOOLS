@@ -14,3 +14,13 @@
 *::-webkit-scrollbar {
   display: none;
 }
+
+@layer components {
+  .glassModal {
+    @apply shadow-[0_10px_30px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.06)] bg-white/5 border-2 border-white/10 backdrop-blur-[10px];
+  }
+
+  .glassBg {
+    @apply bg-[linear-gradient(120deg,rgba(31,31,40,0.15)_0%,rgba(19,19,24,0.15)_55%,rgba(96,71,169,0.08)_100%)];
+  }
+}

@@ -4,7 +4,12 @@ import { encode, decode } from "../../utils/encoding";
 import { successToast, errorToast } from "../../utils/toast";
 import MapCard from "./MapCard";
 
-const PlaylistPanel = ({ selectedMaps, setSelectedMaps }) => {
+const PlaylistPanel = ({
+  selectedMaps,
+  setSelectedMaps,
+  setShowMapModal,
+  setMapModalMap,
+}) => {
   const [playlistName, setPlaylistName] = useState("STRAFTOOLS Playlist");
   const [search, setSearch] = useState("");
 
@@ -57,13 +62,15 @@ const PlaylistPanel = ({ selectedMaps, setSelectedMaps }) => {
           <p className="text-sm">Clear</p>
         </button>
       </div>
-      <div className="gap-5 overflow-y-auto grid grid-cols-3 h-full content-start justify-stretch">
+      <div className="gap-5 overflow-y-auto grid grid-cols-3 h-full content-start justify-stretch p-1">
         {filteredMaps.map((mapName) => (
           <MapCard
             key={mapName}
             mapName={mapName}
             selectedMaps={selectedMaps}
             setSelectedMaps={setSelectedMaps}
+            setShowMapModal={setShowMapModal}
+            setMapModalMap={setMapModalMap}
           />
         ))}
       </div>

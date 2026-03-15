@@ -1,15 +1,21 @@
 import { useState } from "react";
 import Filters from "../playlist/Filters";
 import MapBrowser from "../playlist/MapBrowser";
+import MapModal from "../playlist/MapModal";
 
 const MapSelector = ({ selectedMaps, setSelectedMaps }) => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [activeFamilies, setActiveFamilies] = useState([]);
   const [activeWeapons, setActiveWeapons] = useState([]);
   const [weaponFilterMode, setWeaponFilterMode] = useState("and");
+  const [showMapModal, setShowMapModal] = useState(false);
+  const [mapModalMap, setMapModalMap] = useState("");
 
   return (
     <div className="flex flex-1 overflow-hidden">
+      {showMapModal && (
+        <MapModal mapModalMap={mapModalMap} setShowMapModal={setShowMapModal} />
+      )}
       <Filters
         activeCategory={activeCategory}
         setActiveCategory={setActiveCategory}
@@ -27,6 +33,8 @@ const MapSelector = ({ selectedMaps, setSelectedMaps }) => {
         activeFamilies={activeFamilies}
         activeWeapons={activeWeapons}
         weaponFilterMode={weaponFilterMode}
+        setShowMapModal={setShowMapModal}
+        setMapModalMap={setMapModalMap}
       />
     </div>
   );
