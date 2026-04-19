@@ -7,16 +7,24 @@ const MapCard = ({
   setSelectedMaps,
   setShowMapModal,
   setMapModalMap,
+  rules,
 }) => {
   const isSelected = selectedMaps.includes(mapName);
   const weaponCount = Object.values(maps[mapName]?.weapons ?? {}).flat().length;
+  const existsInRules =
+    Array.isArray(rules) &&
+    rules.length > 0 &&
+    rules.some((r) => r?.mapString === mapName);
 
-  const toggleMap = () =>
+  const toggleMap = () => {
+    if (existsInRules) return;
+
     setSelectedMaps((prev) =>
       prev.includes(mapName)
         ? prev.filter((m) => m !== mapName)
         : [...prev, mapName],
     );
+  };
 
   const openMapModal = (e) => {
     e.stopPropagation();
@@ -31,6 +39,10 @@ const MapCard = ({
       isSelected
         ? "border border-white bg-zinc-800"
         : "border border-zinc-600 hover:bg-zinc-800 bg-zinc-900"
+    } ${
+      existsInRules
+        ? "opacity-30 cursor-not-allowed pointer-events-none"
+        : "cursor-pointer hover:scale-101"
     }`}
       onClick={toggleMap}
     >

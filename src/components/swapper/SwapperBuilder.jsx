@@ -33,12 +33,17 @@ const SwapperBuilder = () => {
   };
 
   const handleAddAllMaps = () => {
+    if (rules.some((r) => r.pattern === "*")) {
+      return errorToast("Rule already exists");
+    }
+
     const newRule = {
       id: crypto.randomUUID(),
       maps: Object.keys(maps),
       pattern: "*",
       swaps: [],
     };
+
     setRules((prev) => [...prev, newRule]);
     setSelectedRule(newRule.id);
   };
@@ -65,14 +70,30 @@ const SwapperBuilder = () => {
       const json = decode(playlistCode);
       if (json.type !== "playlist") return errorToast("Invalid playlist");
 
-      const newRules = json.maps.map((mapString) => ({
+      const existingMapStrings = new Set(
+        rules.map((r) => r.mapString).filter(Boolean),
+      );
+
+      const uniqueMaps = json.maps.filter(
+        (mapString) => !existingMapStrings.has(mapString),
+      );
+      const skippedCount = json.maps.length - uniqueMaps.length;
+
+      if (uniqueMaps.length === 0) {
+        return errorToast("All maps in playlist already exist");
+      }
+
+      const newRules = uniqueMaps.map((mapString) => ({
         id: crypto.randomUUID(),
         mapString,
         swaps: [],
       }));
 
       setRules((prev) => [...prev, ...newRules]);
-      successToast(`Imported ${newRules.length} maps`, "📥");
+      successToast(
+        `Imported ${uniqueMaps.length} ${uniqueMaps.length === 1 ? "map" : "maps"} ${skippedCount > 0 ? `(${skippedCount} skipped)` : ""}`,
+        "📥",
+      );
     } catch (e) {
       errorToast("Invalid import string");
     }
@@ -84,6 +105,7 @@ const SwapperBuilder = () => {
         <Modal
           setIsModalActive={setIsModalActive}
           handleCreateRules={handleCreateRules}
+          rules={rules}
         />
       ) : null}
       <div className="flex flex-1 overflow-hidden">

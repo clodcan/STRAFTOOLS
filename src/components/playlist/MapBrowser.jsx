@@ -12,6 +12,7 @@ const MapBrowser = ({
   weaponFilterMode,
   setShowMapModal,
   setMapModalMap,
+  rules,
 }) => {
   const [search, setSearch] = useState("");
 
@@ -71,6 +72,7 @@ const MapBrowser = ({
             setSelectedMaps={setSelectedMaps}
             setShowMapModal={setShowMapModal}
             setMapModalMap={setMapModalMap}
+            rules={rules}
           />
         ))}
       </div>

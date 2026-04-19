@@ -3,7 +3,7 @@ import Filters from "../playlist/Filters";
 import MapBrowser from "../playlist/MapBrowser";
 import MapModal from "../playlist/MapModal";
 
-const MapSelector = ({ selectedMaps, setSelectedMaps }) => {
+const MapSelector = ({ selectedMaps, setSelectedMaps, rules }) => {
   const [activeCategory, setActiveCategory] = useState("all");
   const [activeFamilies, setActiveFamilies] = useState([]);
   const [activeWeapons, setActiveWeapons] = useState([]);
@@ -35,6 +35,7 @@ const MapSelector = ({ selectedMaps, setSelectedMaps }) => {
         weaponFilterMode={weaponFilterMode}
         setShowMapModal={setShowMapModal}
         setMapModalMap={setMapModalMap}
+        rules={rules}
       />
     </div>
   );

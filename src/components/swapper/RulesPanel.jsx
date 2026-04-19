@@ -24,37 +24,74 @@ const RulesPanel = ({
   const [ruleInput, setRuleInput] = useState("");
   const [ruleView, setRuleView] = useState("grid");
 
+  const getRuleMaps = (rule) => {
+    if (Array.isArray(rule.maps)) return rule.maps;
+    if (rule.mapString) return [rule.mapString];
+    return [];
+  };
+
+  const normalizeMaps = (maps) => {
+    return [...maps].sort().join("|");
+  };
+
+  const ruleExistsByMaps = (newMaps, rules) => {
+    const newSig = normalizeMaps(newMaps);
+
+    return rules.some((r) => {
+      const existingMaps = getRuleMaps(r);
+      return normalizeMaps(existingMaps) === newSig;
+    });
+  };
+
   const handleRuleSubmit = () => {
     if (!ruleInput.trim()) return;
-    const input = ruleInput.trim();
 
+    const input = ruleInput.trim();
     const matched = expandPattern(input);
 
     if (matched.length > 1) {
+      if (ruleExistsByMaps(matched, rules)) {
+        return errorToast("Rule already exists");
+      }
+
       const newRule = {
         id: crypto.randomUUID(),
         maps: matched,
         pattern: input,
         swaps: [],
       };
+
       setRules((prev) => [...prev, newRule]);
       setSelectedRule(newRule.id);
     } else if (matched.length === 1) {
+      const map = matched[0];
+
+      if (ruleExistsByMaps([map], rules)) {
+        return errorToast("Map already exists");
+      }
+
       const newRule = {
         id: crypto.randomUUID(),
-        mapString: matched[0],
+        mapString: map,
         swaps: [],
       };
+
       setRules((prev) => [...prev, newRule]);
       setSelectedRule(newRule.id);
     } else {
       const matchedMap = normalizeMapString(input);
       if (!matchedMap) return errorToast("Map not found");
+
+      if (ruleExistsByMaps([matchedMap], rules)) {
+        return errorToast("Map already exists");
+      }
+
       const newRule = {
         id: crypto.randomUUID(),
         mapString: matchedMap,
         swaps: [],
       };
+
       setRules((prev) => [...prev, newRule]);
       setSelectedRule(newRule.id);
     }

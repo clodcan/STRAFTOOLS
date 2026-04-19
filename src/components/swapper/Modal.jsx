@@ -8,7 +8,7 @@ import {
 } from "react-icons/md";
 import MapSelector from "../shared/MapSelector";
 
-const Modal = ({ setIsModalActive, handleCreateRules }) => {
+const Modal = ({ setIsModalActive, handleCreateRules, rules }) => {
   const [modalSelection, setModalSelection] = useState([]);
 
   const removeMap = (mapName) => {
@@ -40,6 +40,7 @@ const Modal = ({ setIsModalActive, handleCreateRules }) => {
           <MapSelector
             selectedMaps={modalSelection}
             setSelectedMaps={setModalSelection}
+            rules={rules}
           />
           <div className="flex flex-col w-48 border-l border-l-zinc-600">
             <div className="flex gap-1 p-5 items-center">
