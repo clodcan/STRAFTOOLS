@@ -845,7 +845,7 @@
     "dlc": true,
     "family": "Basket",
     "weapons": {
-      "spawners": ["AP Mine", "StunMine", "Webley"]
+      "spawners": ["AP Mine", "Stun Mine", "Webley"]
     }
   },
   "Basket_02": {
@@ -863,7 +863,7 @@
     "dlc": true,
     "family": "Basket",
     "weapons": {
-      "spawners": ["Hand Grenade", "StunMine", "Stylus"]
+      "spawners": ["Hand Grenade", "Stun Mine", "Stylus"]
     }
   },
   "Basket_Borular": {
@@ -899,7 +899,7 @@
         "Prophet",
         "Silenzzio",
         "Stun Grenade",
-        "StunMine",
+        "Stun Mine",
         "Stylus",
         "Taser"
       ]
@@ -1049,7 +1049,7 @@
         "Impetus",
         "Proximity Mine",
         "Stun Grenade",
-        "StunMine"
+        "Stun Mine"
       ]
     }
   },
@@ -1149,7 +1149,7 @@
         "Jahval Mahmaerd",
         "M2000",
         "Mortini",
-        "StunMine"
+        "Stun Mine"
       ]
     }
   },
@@ -1309,7 +1309,7 @@
         "Revolver",
         "Smith Carbine",
         "Stun Grenade",
-        "StunMine",
+        "Stun Mine",
         "Tromblonj"
       ]
     }
@@ -1323,7 +1323,7 @@
       "spawners": [
         "Silenzzio",
         "Stun Grenade",
-        "StunMine",
+        "Stun Mine",
         "Tromblonj",
         "Warden"
       ]
@@ -1470,7 +1470,12 @@
     "dlc": true,
     "family": "Bazaar",
     "weapons": {
-      "spawners": ["Hand Grenade", "Proximity Mine", "Stun Grenade", "StunMine"]
+      "spawners": [
+        "Hand Grenade",
+        "Proximity Mine",
+        "Stun Grenade",
+        "Stun Mine"
+      ]
     }
   },
   "Bazaar_Marketplace": {
@@ -1562,7 +1567,13 @@
     "dlc": true,
     "family": "Bazaar",
     "weapons": {
-      "spawners": ["AP Mine", "Couperet", "Impetus", "Stun Grenade", "StunMine"]
+      "spawners": [
+        "AP Mine",
+        "Couperet",
+        "Impetus",
+        "Stun Grenade",
+        "Stun Mine"
+      ]
     }
   },
   "Cage_Fight_00_Day": {
@@ -2077,7 +2088,7 @@
     "dlc": true,
     "family": "Dragonfly",
     "weapons": {
-      "spawners": ["Pistol", "Proximity Mine", "StunMine"]
+      "spawners": ["Pistol", "Proximity Mine", "Stun Mine"]
     }
   },
   "Dragonfly_Abduction": {
@@ -2206,7 +2217,7 @@
     "dlc": true,
     "family": "Dragonfly",
     "weapons": {
-      "spawners": ["Repulsar", "StunMine"]
+      "spawners": ["Repulsar", "Stun Mine"]
     }
   },
   "Dragonfly_Crusher_Underwater_Alt": {
@@ -2555,7 +2566,7 @@
     "dlc": false,
     "family": "Dragonfly",
     "weapons": {
-      "spawners": ["Sawed Off", "StunMine"]
+      "spawners": ["Sawed Off", "Stun Mine"]
     }
   },
   "Dragonfly_Streets_Alt": {
@@ -2730,7 +2741,7 @@
         "Pistol",
         "SMG",
         "Sawed Off",
-        "StunMine"
+        "Stun Mine"
       ]
     }
   },
@@ -2886,7 +2897,7 @@
         "Repulsar",
         "SMG",
         "Shotgun",
-        "StunMine"
+        "Stun Mine"
       ]
     }
   },
@@ -3698,7 +3709,7 @@
         "Jahval Mahmaerd",
         "Oklahoma",
         "Pistol",
-        "StunMine",
+        "Stun Mine",
         "Stylus",
         "Taser"
       ]
@@ -4020,7 +4031,7 @@
         "Curved Knife",
         "Dispenser",
         "Repulsar",
-        "StunMine",
+        "Stun Mine",
         "Yangtse"
       ]
     }
@@ -4217,7 +4228,7 @@
     "dlc": true,
     "family": "Stadium",
     "weapons": {
-      "spawners": ["Kusma", "StunMine", "Stylus"]
+      "spawners": ["Kusma", "Stun Mine", "Stylus"]
     }
   },
   "Stroke_01": {

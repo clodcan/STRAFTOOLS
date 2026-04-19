@@ -5,6 +5,7 @@ export const weaponIdToName = {
   SawedOff: "Sawed Off",
   HandGrenade: "Hand Grenade",
   ProximityMine: "Proximity Mine",
+  StunMine: "Stun Mine",
   APMine: "AP Mine",
   JahvalMahmaerd: "Jahval Mahmaerd",
   SmithCarbine: "Smith Carbine",
