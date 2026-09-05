@@ -1,17 +1,25 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   MdContentCopy,
   MdContentPasteGo,
   MdOutlineSwapHoriz,
 } from "react-icons/md";
 import { decode, encode } from "../../utils/encoding";
+import { validateImportPayload } from "../../utils/deepLinkImport";
 import { errorToast, successToast } from "../../utils/toast";
 import { buildPresetJson, parsePresetJson } from "../../utils/presetUtils";
 import SwapEditor from "./SwapEditor";
 import maps from "../../data/maps.json";
 
-const WeaponSwapperPanel = ({ rules, setRules, selectedRule }) => {
+const WeaponSwapperPanel = ({
+  rules,
+  setRules,
+  selectedRule,
+  initialImport,
+  onInitialImportProcessed,
+}) => {
   const [swapperName, setSwapperName] = useState("STRAFTOOLS Swapper");
+  const initialImportHandled = useRef(false);
   const selectedRuleObject = rules.find((r) => r.id === selectedRule) ?? null;
 
   const mapList = selectedRuleObject
@@ -47,9 +55,9 @@ const WeaponSwapperPanel = ({ rules, setRules, selectedRule }) => {
     successToast("Copied to clipboard", "📋");
   };
 
-  const importPreset = async () => {
+  const importSwapper = useCallback((encoded) => {
     try {
-      const json = decode(await navigator.clipboard.readText());
+      const json = decode(validateImportPayload(encoded));
       const { name, rules: imported } = parsePresetJson(json);
       setRules(imported);
       setSwapperName(name);
@@ -58,7 +66,31 @@ const WeaponSwapperPanel = ({ rules, setRules, selectedRule }) => {
       console.error("decode failed:", e);
       errorToast("Invalid import string");
     }
+  }, [setRules]);
+
+  const importSwapperFromClipboard = async () => {
+    try {
+      importSwapper(await navigator.clipboard.readText());
+    } catch {
+      errorToast("Invalid import string");
+    }
   };
+
+  useEffect(() => {
+    if (initialImport === null || initialImportHandled.current) return;
+
+    let cancelled = false;
+    queueMicrotask(() => {
+      if (cancelled || initialImportHandled.current) return;
+      initialImportHandled.current = true;
+      importSwapper(initialImport);
+      onInitialImportProcessed();
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [importSwapper, initialImport, onInitialImportProcessed]);
 
   useEffect(() => {
     if (!selectedRuleObject || selectedRuleObject.swaps.length > 0) return;
@@ -116,7 +148,7 @@ const WeaponSwapperPanel = ({ rules, setRules, selectedRule }) => {
         </button>
         <button
           className="border border-zinc-600 rounded-lg px-3 flex items-center gap-1 cursor-pointer hover:bg-zinc-800 transition-all ease-in"
-          onClick={importPreset}
+          onClick={importSwapperFromClipboard}
         >
           <MdContentPasteGo />
           Import

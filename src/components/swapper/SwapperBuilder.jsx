@@ -7,7 +7,7 @@ import WeaponDisplayPanel from "./WeaponDisplayPanel";
 import WeaponSwapperPanel from "./WeaponSwapperPanel";
 import maps from "../../data/maps.json";
 
-const SwapperBuilder = () => {
+const SwapperBuilder = ({ initialImport, onInitialImportProcessed }) => {
   const [isModalActive, setIsModalActive] = useState(false);
   const [rules, setRules] = useState([]);
   const [selectedRule, setSelectedRule] = useState("");
@@ -125,6 +125,8 @@ const SwapperBuilder = () => {
           rules={rules}
           setRules={setRules}
           selectedRule={selectedRule}
+          initialImport={initialImport}
+          onInitialImportProcessed={onInitialImportProcessed}
         />
       </div>
     </>

@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { MdContentCopy, MdContentPasteGo, MdDelete } from "react-icons/md";
 import { encode, decode } from "../../utils/encoding";
+import { validateImportPayload } from "../../utils/deepLinkImport";
 import { successToast, errorToast } from "../../utils/toast";
 import MapCard from "./MapCard";
 
@@ -9,19 +10,20 @@ const PlaylistPanel = ({
   setSelectedMaps,
   setShowMapModal,
   setMapModalMap,
+  initialImport,
+  onInitialImportProcessed,
 }) => {
   const [playlistName, setPlaylistName] = useState("STRAFTOOLS Playlist");
   const [search, setSearch] = useState("");
+  const initialImportHandled = useRef(false);
 
   const filteredMaps = selectedMaps.filter((mapName) =>
     mapName.toLowerCase().includes(search.toLowerCase()),
   );
 
-  const importPlaylist = async () => {
-    const playlistCode = await navigator.clipboard.readText();
-
+  const importPlaylist = useCallback((encoded) => {
     try {
-      const json = decode(playlistCode);
+      const json = decode(validateImportPayload(encoded));
 
       if (json.type === "playlist" && Array.isArray(json.maps)) {
         setSelectedMaps(json.maps);
@@ -30,10 +32,34 @@ const PlaylistPanel = ({
       } else {
         errorToast("Pasted invalid import string");
       }
-    } catch (e) {
+    } catch {
+      errorToast("Pasted invalid import string");
+    }
+  }, [setSelectedMaps]);
+
+  const importPlaylistFromClipboard = async () => {
+    try {
+      importPlaylist(await navigator.clipboard.readText());
+    } catch {
       errorToast("Pasted invalid import string");
     }
   };
+
+  useEffect(() => {
+    if (initialImport === null || initialImportHandled.current) return;
+
+    let cancelled = false;
+    queueMicrotask(() => {
+      if (cancelled || initialImportHandled.current) return;
+      initialImportHandled.current = true;
+      importPlaylist(initialImport);
+      onInitialImportProcessed();
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [importPlaylist, initialImport, onInitialImportProcessed]);
 
   const exportPlaylist = () => {
     const playlistCode = encode({
@@ -96,7 +122,7 @@ const PlaylistPanel = ({
         </button>
         <button
           className="border border-zinc-600 rounded-lg px-3 flex items-center gap-1 cursor-pointer hover:bg-zinc-800 transition-all ease-in"
-          onClick={importPlaylist}
+          onClick={importPlaylistFromClipboard}
         >
           <MdContentPasteGo />
           Import
