@@ -4,7 +4,7 @@ import Filters from "./Filters";
 import MapBrowser from "./MapBrowser";
 import PlaylistPanel from "./PlaylistPanel";
 
-const PlaylistBuilder = () => {
+const PlaylistBuilder = ({ initialImport, onInitialImportProcessed }) => {
   const [selectedMaps, setSelectedMaps] = useState([]);
   const [activeCategory, setActiveCategory] = useState("all");
   const [activeFamilies, setActiveFamilies] = useState([]);
@@ -43,6 +43,8 @@ const PlaylistBuilder = () => {
         setSelectedMaps={setSelectedMaps}
         setShowMapModal={setShowMapModal}
         setMapModalMap={setMapModalMap}
+        initialImport={initialImport}
+        onInitialImportProcessed={onInitialImportProcessed}
       />
     </div>
   );
